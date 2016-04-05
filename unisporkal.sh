@@ -100,4 +100,4 @@ eval_command+=' --tab --title="Docker" -e "$docker"'
 
 # echo "$eval_command"
 eval "$eval_command"
-kill -9 $PPIDexi
+kill -9 $PPID
