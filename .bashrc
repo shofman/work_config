@@ -96,6 +96,11 @@ alias istock='cd /home/shofman/development/istock-vagrant-latest/'
 alias istockup='cd /home/shofman/development/istock-vagrant-latest/ && vagrant up && vagrant ssh'
 alias istockssh='cd /home/shofman/development/istock-vagrant-latest/ && vagrant ssh'
 
+
+alias uniroot='cd /home/shofman/src/unisporkal'
+alias uniadp='cd /home/shofman/src/unisporkal/asset_detail'
+alias uni-adp='uniadp'
+
 # VPN for current setup
 alias startvpn='sudo vpnc /home/shofman/Desktop/VPNSeattle.conf'
 alias endvpn='sudo vpnc-disconnect'
