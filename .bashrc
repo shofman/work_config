@@ -91,6 +91,7 @@ alias l='ls -CF'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 alias listKernals='dpkg -l linux-image-\* | grep ^ii'
+alias list-kernals='dpkg -l linux-image-\* | grep ^ii'
 
 alias istock='cd /home/shofman/development/istock-vagrant-latest/'
 alias istockup='cd /home/shofman/development/istock-vagrant-latest/ && vagrant up && vagrant ssh'
